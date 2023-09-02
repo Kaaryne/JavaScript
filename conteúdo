@@ -6,3 +6,77 @@ JavaScript é uma linguagem fracamente tipada e dinâmica:
 - todas as variáveis são objetos (referência).
 - números são reais de 64 bits.
 - a variável é alterada conforme os valores atribuídos a ela.
+
+=============================================================
+
+Operadores 
+
++ 
+Efetuar uma soma de valores ou concatenação de strings.
+
+-
+Subtração de valores
+
+*
+MUltiplicação de valores
+
+/
+Divisão de valores
+
+%
+Resto da divisão
+
+++
+Incremento 
+
+--
+Decremento
+
+=============================================================
+
+Operadores de Comparação
+
+==
+Valor igual
+
+=== 
+Valor e tipo iguais
+
+!=
+Diferente
+
+!==
+Valor e tipo diferentes
+
+>
+Maior que
+
+<
+Menor que
+
+>=
+Maior ou igual
+
+<=
+Menor ou igual
+
+&& 
+"E" lógico (and)
+
+|| 
+"OU" lógico (or)
+
+!
+Negação (not)
+
+--Os operadores de comparação, gerealmente, são utilizados 
+nas condições para estruturas de seleção (decisão) e condições
+para estruturas de repetições--
+
+https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators
+
+=============================================================
+
+---Estruturas de Decisão---
+
+Condicional Simples (if...else)
