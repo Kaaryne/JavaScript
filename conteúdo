@@ -1,0 +1,8 @@
+Variáveis
+
+JavaScript é uma linguagem fracamente tipada e dinâmica:
+
+- não é ncessário declarar o tipo (int, float, double, etc).
+- todas as variáveis são objetos (referência).
+- números são reais de 64 bits.
+- a variável é alterada conforme os valores atribuídos a ela.
