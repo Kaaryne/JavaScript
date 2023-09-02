@@ -1,0 +1,3 @@
+mensagem = "Olá"
+
+alert(mensagem)
