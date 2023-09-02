@@ -1,79 +1,111 @@
 
-/*
-mensagem = "Olá" 
+// mensagem = "Olá"  /* atribuição de valor a variavel */
 
-alert(mensagem)  
-*/
+// alert(mensagem);   /* mensagem no site */
 
-var y;
 
-y = 37;
-document.write(y);
-document.write ("<br>");
+// var y;
 
-y = "Karyne";
-document.write(y);
-document.write ("<br>");
+// y = 37;
+// document.write(y);
+// document.write ("<br>");
 
-y = true;
-document.write(y);
-document.write ("<br>");
+// y = "Karyne";
+// document.write(y);
+// document.write ("<br>");
 
-y = null;
-document.write(y);
-document.write ("<br>");
+// y = true;
+// document.write(y);
+// document.write ("<br>");
 
-/* Expressões */
+// y = null;
+// document.write(y);
+// document.write ("<br>");
 
-var expressao;
+// /* Expressões */
 
-expressao = 30 + 20 - 10 * 5;
-document.write("30 + 20 - 10 * 5 = ");  /* expressão escrita, pois está entre aspas (string) */
-document.write(expressao);              /* resultado "0", pois é a variável */
+// var expressao;
 
-/* Decisões */
+// expressao = 30 + 20 - 10 * 5;
+// document.write("30 + 20 - 10 * 5 = ");  /* expressão escrita, pois está entre aspas (string) */
+// document.write(expressao);              /* resultado "0", pois é a variável */
 
-if (condição) {
-    declaracao_1;
-}   else {
-    declaracao_2;
-}
+// /* Decisões */
 
-/* Estruturas compostas */
+// if (condição) {
+//     declaracao_1;
+// }   else {
+//     declaracao_2;
+// }
 
-if (condicao) {
-    declaracao_1;
-}   else if (condicao_2) {
-    declaracao_2;
-}   else if (condicao_n) {
-    declaracao_n;
-}   else {
-    declaração_final;
-}
+// /* Estruturas compostas */
 
-/* Condições podem executar mais de 1 comando */
+// if (condicao) {
+//     declaracao_1;
+// }   else if (condicao_2) {
+//     declaracao_2;
+// }   else if (condicao_n) {
+//     declaracao_n;
+// }   else {
+//     declaração_final;
+// }
 
-if (condicao) {
-    declaracao_1_executada_se_condicao_for_verdadeira;
-    declaracao_2_executada_se_condicao_for_verdadeira;
-}   else {
-    declaracao_3_executada_se_condicao_for_falsa;
-    declaracao_4_executada_se_condicao_for_falsa;
-}
+// /* Condições podem executar mais de 1 comando */
+
+// if (condicao) {
+//     declaracao_1_executada_se_condicao_for_verdadeira;
+//     declaracao_2_executada_se_condicao_for_verdadeira;
+// }   else {
+//     declaracao_3_executada_se_condicao_for_falsa;
+//     declaracao_4_executada_se_condicao_for_falsa;
+// }
+
+// /* Exemplo */
+
+// var idade;
+// idade = prompt("Digite a sua idade: ");
+
+// if (idade >= 18) {
+//     var maiorIdade = true;
+// }   else {
+//     var maiorIdade = false;
+// }
+
+// if (maiorIdade) {
+//     document.write("Maior de idade, pode dirigir!");
+// }   else {
+//     document.write("Menor de idade. :(");
+// }
+
+// /* Declaração Switch */
+
+// switch (expressao) {
+//     case rotulo_1:
+//         declaracoes_1
+//         [break;]
+//     case rotulo_2:
+//         declaracoes_2
+//         [break;]
+//     ...
+//     default:
+//         declaracoes_padrao
+//         [break;]
+// }
 
 /* Exemplo */
 
-var idade;
-idade = prompt("Digite a sua idade: ");
+cargo = prompt("Digite o seu cargo: ");
+salario = 2000;
 
-if (idade >= 18) {
-    var maiorIdade = true;
-}   else {
-    var maiorIdade = false;
+switch (cargo) {
+    case "gerente":
+        salario *= 1.15; // salario = salario *1.15
+        break;
+    case "supervisor":
+        salario *= 1.10; //salario = salario * 1.10
+        break;
+    default:
+        salario *= 1.05; // salario = salario * 1.05
 }
 
-if (maiorIdade) {
-    document.write("Maior de idade, pode dirigir!");
-}   else {
-    document.write("Menor de idade. :(");
-}
+console.log("Salario do "+ cargo +": " + salario);
