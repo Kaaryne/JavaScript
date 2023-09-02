@@ -22,6 +22,7 @@
 // document.write(y);
 // document.write ("<br>");
 
+
 // /* Expressões */
 
 // var expressao;
@@ -30,6 +31,7 @@
 // document.write("30 + 20 - 10 * 5 = ");  /* expressão escrita, pois está entre aspas (string) */
 // document.write(expressao);              /* resultado "0", pois é a variável */
 
+
 // /* Decisões */
 
 // if (condição) {
@@ -37,6 +39,7 @@
 // }   else {
 //     declaracao_2;
 // }
+
 
 // /* Estruturas compostas */
 
@@ -50,6 +53,7 @@
 //     declaração_final;
 // }
 
+
 // /* Condições podem executar mais de 1 comando */
 
 // if (condicao) {
@@ -59,6 +63,7 @@
 //     declaracao_3_executada_se_condicao_for_falsa;
 //     declaracao_4_executada_se_condicao_for_falsa;
 // }
+
 
 // /* Exemplo */
 
@@ -77,6 +82,7 @@
 //     document.write("Menor de idade. :(");
 // }
 
+
 // /* Declaração Switch */
 
 // switch (expressao) {
@@ -92,20 +98,70 @@
 //         [break;]
 // }
 
+
 /* Exemplo */
 
-cargo = prompt("Digite o seu cargo: ");
-salario = 2000;
+// cargo = prompt("Digite o seu cargo: ");
+// salario = 2000;
 
-switch (cargo) {
-    case "gerente":
-        salario *= 1.15; // salario = salario *1.15
-        break;
-    case "supervisor":
-        salario *= 1.10; //salario = salario * 1.10
-        break;
-    default:
-        salario *= 1.05; // salario = salario * 1.05
-}
+// switch (cargo) {
+//     case "gerente":
+//         salario *= 1.15; // salario = salario *1.15
+//         break;
+//     case "supervisor":
+//         salario *= 1.10; //salario = salario * 1.10
+//         break;
+//     default:
+//         salario *= 1.05; // salario = salario * 1.05
+// }
 
-console.log("Salario do "+ cargo +": " + salario);
+// console.log("Salario do "+ cargo +": " + salario);
+
+
+/* Estrutura "while" */
+
+// while (condicao)
+//     declaracao
+
+
+/* Exemplo (estrutura while) */
+
+// n = 0;
+// x = 0;
+// while (n < 4) {
+//     n++;
+//     x += n; // x = x + n
+//     console.log(x);
+// }
+
+
+/* Estrutura "do-while" */
+
+// do
+//     declaracao
+// while (condicao);
+
+
+/* Exemplo (estrutura do-while) */
+
+// i = 0;
+// do {
+//     i = i + 1;
+//     console.log(i)
+// } while (i < 5);
+
+
+/* Estrutura "for" */
+
+// for ([expressaoInicial]; [condicao]; [incremento])
+//     declaracao
+
+
+/* Exemplo (estrutura do for) */
+
+// var cont;
+
+// for(cont = 0; cont <10; cont++)
+// {
+//     console.log("Karyne")
+// }

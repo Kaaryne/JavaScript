@@ -27,7 +27,7 @@ Divisão de valores
 Resto da divisão
 
 ++
-Incremento 
+Incremento (aumenta uma unidade)
 
 --
 Decremento
@@ -80,3 +80,30 @@ https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Op
 ---Estruturas de Decisão---
 
 Condicional Simples (if...else)
+
+Valores que retornam false:
+
+false
+undefined
+null
+0
+NaN
+string vazia ("")
+
+-> todos os outros valores, incluindo todos os objetos, são avaliados como verdadeiros quando passados para a declaração condicional.
+
+===============================================================
+
+---Estruturas de Repetição---
+
+While:
+A estrutura de repetição "while" é usada para executar um conjunto de ações, enquanto uma condição for verdadeira. Quando a condição se tornar falsa, o bloco é finalizado.
+O fluxo obrigatoriamente entra no laço de repetição pelo menos 1 vez.
+Somente saira do laço de repetição quando a condição for satisfeita
+
+Do While (repita até)
+Uma outra estrutura muito semelhante é a do "do - while", que executa um bloco de ações até que uma condição seja falsa.
+
+For:
+Uma outra estrutura de repetição muito importante é o "for", que usa um contador para executar um bloco um bloco de ações uma determinada quantidade de vezes.
+
