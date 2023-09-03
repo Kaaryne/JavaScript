@@ -1,4 +1,4 @@
-Variáveis
+---Variáveis---
 
 JavaScript é uma linguagem fracamente tipada e dinâmica:
 
@@ -9,7 +9,7 @@ JavaScript é uma linguagem fracamente tipada e dinâmica:
 
 =============================================================
 
-Operadores 
+---Operadores---
 
 + 
 Efetuar uma soma de valores ou concatenação de strings.
@@ -34,7 +34,7 @@ Decremento
 
 =============================================================
 
-Operadores de Comparação
+---Operadores de Comparação---
 
 ==
 Valor igual
@@ -109,6 +109,29 @@ Uma outra estrutura de repetição muito importante é o "for", que usa um conta
 
 ================================================================
 
-Vetoriais (arrays)
+---Vetoriais (arrays)---
 
 Um vetor (array) é um tipo de dado estruturado onde se tem um número fixo de componentes. Geralmente armazena várias variáveis do mesmo tipo, porém em javascript é possível armazenar tipos diferentes em um mesmo vetor.
+
+Métodos importantes:
+
+Pop: remove o último elemento do array.
+
+Unshift: adciona um ou mais elementos no começo do array.
+
+Shift: remove o primeiro elemento do vetor.
+
+Splice: remove ou altera um ou mais elementos do vetor.
+
+Sort: ordena os dados em um vetor.
+
+Reverse: inverte a posição dos vetores em um vetor.
+
+Concat: junta um ou mais vetores.
+
+Join: junta os valores de um valor com um caractere de separador.
+
+===============================================================
+
+---Matrizes---
+

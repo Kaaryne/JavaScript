@@ -169,5 +169,48 @@
 
 /* array */
 
-var sul = new Array("RS", "SC", "PR");
-var sudeste = new Array("SP", "RJ", "MG", "ES")
+// var sul = new Array("RS", "SC", "PR");
+// var sudeste = new Array("SP", "RJ", "MG", "ES");
+
+// document.write("ESTADOS DA REGIÂO SUL:");
+// document.write("<br>");
+// document.write(sul [0]);
+// document.write("<br>");
+// document.write(sul [1]);
+// document.write("<br>");
+// document.write(sul [2]);
+
+// var tam = sudeste.length; /* esta variável armazena o tamanho do vetor armazenado na variável tam */
+
+// document.write("ESTADOS DA REGIÃO SUDESTE:");
+
+// for(i=0; i<tam; i++){
+//     document.write("<br>");
+//     document.write(sudeste[i]);
+// }
+
+// var pessoa = [2088812332, "Karyne Fyrlan", 16, "F"];
+// document.write("RG: " + pessoa[0] + "<br>");
+// document.write("NOME COMPLETO: " + pessoa[1] + "<br>");
+// document.write("IDADE: " + pessoa[2] + "<br>");
+// document.write("SEXO: " + pessoa[3] + "<br>");
+
+// var meses = ["jan", "fev", "mar", "abr", "mai","jun","jul"];
+// var dolar = [4.56, 4.89, 4.93, 5.23, 5.45];
+
+// document.write("<u>VALOR DO DOLAR:</u> <br>");
+// for(i=0; i< dolar.length; i++){
+//     document.write("<br>");
+//     document.write(meses[i] + ": R$" + dolar[i])
+// }
+
+
+/* Pop */
+// var frutas = ["banana ", "laranja ", "ameixa ", "abacaxi "];
+// frutas.pop();
+// document.write(frutas);
+
+/* Unshift */
+// var idades = [25, 30, 32, 37];
+// idades.unshift(42);
+// alert(idades);
