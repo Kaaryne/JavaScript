@@ -165,3 +165,9 @@
 // {
 //     console.log("Karyne")
 // }
+
+
+/* array */
+
+var sul = new Array("RS", "SC", "PR");
+var sudeste = new Array("SP", "RJ", "MG", "ES")
