@@ -246,18 +246,18 @@
 /* Tabuleiro de Xadrez com Matriz */
 
 var tabuleiro = 
-[   ['R','N','B','Q','K','B','N','R']
-    ['P','P','P','P','P','P','P','P']
-    [' ',' ',' ',' ',' ',' ',' ',' ']
-    [' ',' ',' ',' ',' ',' ',' ',' ']
-    [' ',' ',' ',' ',' ',' ',' ',' ']
-    [' ',' ',' ',' ',' ',' ',' ',' ']
-    ['p','p','p','p','p','p','p','p']
-    ['r','n','b','q','k','b','n','r']];
+[   ["R","N","B","Q","K","B","N","R"]
+    ["P","P","P","P","P","P","P","P"]
+    [" "," "," "," "," "," "," "," "]
+    [" "," "," "," "," "," "," "," "]
+    [" "," "," "," "," "," "," "," "]
+    [" "," "," "," "," "," "," "," "]
+    ["p","p","p","p","p","p","p","p"]
+    ["r","n","b","q","k","b","n","r"]];
 
-console.log(tabuleiro.join('\n') + '\n\n');
+console.log(tabuleiro.join("\n") + "\n\n");
 
 tabuleiro[4][2] = tabuleiro[6][2];
-tabuleiro[6][2] = ' ';
-console.log(tabuleiro.join('\n'));
+tabuleiro[6][2] = " ";
+console.log(tabuleiro.join("\n"));
 
