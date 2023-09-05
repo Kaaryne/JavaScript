@@ -7,7 +7,7 @@ JavaScript é uma linguagem fracamente tipada e dinâmica:
 - números são reais de 64 bits.
 - a variável é alterada conforme os valores atribuídos a ela.
 
-=============================================================
+---
 
 ---Operadores---
 
@@ -32,7 +32,7 @@ Incremento (aumenta uma unidade)
 --
 Decremento
 
-=============================================================
+---
 
 ---Operadores de Comparação---
 
@@ -75,7 +75,7 @@ para estruturas de repetições--
 
 https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Expressions_and_Operators
 
-=============================================================
+---
 
 ---Estruturas de Decisão---
 
@@ -92,7 +92,7 @@ string vazia ("")
 
 -> todos os outros valores, incluindo todos os objetos, são avaliados como verdadeiros quando passados para a declaração condicional.
 
-===============================================================
+---
 
 ---Estruturas de Repetição---
 
@@ -107,7 +107,7 @@ Uma outra estrutura muito semelhante é a do "do - while", que executa um bloco 
 For:
 Uma outra estrutura de repetição muito importante é o "for", que usa um contador para executar um bloco um bloco de ações uma determinada quantidade de vezes.
 
-================================================================
+---
 
 ---Vetoriais (arrays)---
 
@@ -131,7 +131,7 @@ Concat: junta um ou mais vetores.
 
 Join: junta os valores de um valor com um caractere de separador.
 
-===============================================================
+---
 
 ---Matrizes---
 
@@ -149,7 +149,7 @@ matint[0][0] <-  3  6  9
                     |
                 matint[2][1]
 
-===================================================================
+---
 
 ---Funções e Strings---
 
@@ -159,7 +159,6 @@ Uma função é composta por um conjunto de instruções que executa uma tarefa 
 
 Valores podem ser passados para uma função, que por sua vez retorna um valor resposta.
 
----
 
 A montagem de uma função consiste no uso da palavra function, seguida por:
 
@@ -167,7 +166,7 @@ A montagem de uma função consiste no uso da palavra function, seguida por:
 -> Lista de argumentos para a função, entre parênteses e separados por vírgulas;
 -> Conjunto de instruções que definem a função, entre chaves {}.
 
-====================================================================
+---
 
 ---Strings---
 
@@ -183,7 +182,7 @@ Em Javascript, strings nada mais são do que um vetor de caracteres.
         |             |
     str[0]            str[7]
 
-=====================================================================
+---
 
 ---Biblioteca jQuery---
 
