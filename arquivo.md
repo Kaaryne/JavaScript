@@ -182,4 +182,25 @@ Em Javascript, strings nada mais são do que um vetor de caracteres.
         B O M   D I A !
         |             |
     str[0]            str[7]
+
+=====================================================================
+
+---Biblioteca jQuery---
+
+Uma biblioteca JavaScript desenvolvida por John Resing;
+
+Uma das bibliotecas JavaScript mais populares na internet;
+
+Disponibilizadas sobre as licenças MIT e GPL;
+
+Código aberto.
+
+AS PRINCIPAIS CARACTERÍSTICAS DO JQUERY SÂO:
+
+Resolução da incompatibilidade entre os navegadores;
+Redução de código;
+Reutilização do código através de plugins;
+Utilização de uma vasta quantidade de plugins criados por outros desenvolvedores;
+Trabalha com AJAX e DOM;
+Implementação segura de recursos de CSS1 CSS2 e CSS3.
                 
