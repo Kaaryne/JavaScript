@@ -148,4 +148,38 @@ matint[0][0] <-  3  6  9
                  1  2  3
                     |
                 matint[2][1]
+
+===================================================================
+
+---Funções e Strings---
+
+De modo geral, função é um "subprograma" que pode ser chamado por um código externo à função;
+
+Uma função é composta por um conjunto de instruções que executa uma tarefa ou calcula um valor;
+
+Valores podem ser passados para uma função, que por sua vez retorna um valor resposta.
+
+---
+
+A montagem de uma função consiste no uso da palavra function, seguida por:
+
+-> Nome da função;
+-> Lista de argumentos para a função, entre parênteses e separados por vírgulas;
+-> Conjunto de instruções que definem a função, entre chaves {}.
+
+====================================================================
+
+---Strings---
+
+String é um conjunto de caracteres, geralmente utilizada para representar palavras, frases, textos, etc;
+
+Strings são palavras, frases, textos, etc;
+
+Em Javascript, strings nada mais são do que um vetor de caracteres. 
+
+    Exemplo: var str = "BOM DIA!";
+
+        B O M   D I A !
+        |             |
+    str[0]            str[7]
                 

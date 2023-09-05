@@ -102,7 +102,7 @@
 /* Exemplo */
 
 // cargo = prompt("Digite o seu cargo: ");
-// salario = 2000;
+// salario = 20;
 
 // switch (cargo) {
 //     case "gerente":
@@ -245,19 +245,60 @@
 
 /* Tabuleiro de Xadrez com Matriz */
 
-var tabuleiro = 
-[   ["R","N","B","Q","K","B","N","R"]
-    ["P","P","P","P","P","P","P","P"]
-    [" "," "," "," "," "," "," "," "]
-    [" "," "," "," "," "," "," "," "]
-    [" "," "," "," "," "," "," "," "]
-    [" "," "," "," "," "," "," "," "]
-    ["p","p","p","p","p","p","p","p"]
-    ["r","n","b","q","k","b","n","r"]];
+// var tabuleiro = 
+// [   ["R", "N", "B", "Q", "K", "B", "N", "R"],
+//     ["P", "P", "P", "P", "P", "P", "P", "P"],
+//     ["c", "c", "c", "c", "c", "c", "c", "c"],
+//     ["c", "c", "c", "c", "c", "c", "c", "c"],
+//     ["c", "c", "c", "c", "c", "c", "c", "c"],
+//     ["c", "c", "c", "c", "c", "c", "c", "c"],
+//     ["c", "p", "p", "p", "p", "p", "p", "p"],
+//     ["c", "n", "b", "q", "k", "b", "n", "r"]];
 
-console.log(tabuleiro.join("\n") + "\n\n");
+// console.log(tabuleiro.join("\n") + "\n\n");
 
-tabuleiro[4][2] = tabuleiro[6][2];
-tabuleiro[6][2] = " ";
-console.log(tabuleiro.join("\n"));
+// tabuleiro[4][2] = tabuleiro[6][2];
+// tabuleiro[6][2] = "c";
+// console.log(tabuleiro.join("\n"));
 
+
+/* Estrutura da Função de Declaração */
+
+// function NomeDaFuncao(arg1, arg2, arg3, etc, ){
+
+//     return variavel
+// }
+
+/* Exemplos: */
+
+// function quadrado(n){
+//     quad = n * n;
+//     return quad;
+// }
+
+// var valor = 5;
+// result = quadrado(valor);
+// alert(result);
+
+
+// function criarProduto(nome, quantidade) {
+//     return {nome: nome, quantidade: quantidade}
+// }
+
+// var produto = criarProduto("Martelo", 30);
+// console.log(produto);
+
+/* Strings (Funções utilizadas em vetores também funciona com strings, como por exemplo:*/
+
+// var str = "Curso FIC de Javascript!";
+// var 1 = str.length;  //Retorna 23 (tamanho)
+
+// var str = "Aula de Javascript";
+// var result = str.search("Javascript");  //Retorna 8 (início da palavra "Javascript")
+
+// var str = "Curso de javascript!";
+// var result = str.replace("Curso","Aula");  //Retorna "Aula de javascript" pois troca "Curso" por "Aula"
+
+// var str = "Curso de Javascript!";
+// var result = str.toUpperCase();  // Retorna a string em caixa alta.
+// var result2 = str.toLowerCase();  // Retorna a string em caixa baixa.
