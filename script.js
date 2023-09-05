@@ -216,6 +216,10 @@
 // alert(idades);
 
 /* Matriz */
+
+
+/* Exemplos: */
+
 // var matint = [[3,6,9,],[2,4,6],[1,2,3]]
 
 // for(let lin=0 ; lin<3 ; lin++){
@@ -225,6 +229,7 @@
 //     document.write("<br>");
 // }
 
+
 // var notas = [[4.5 , 6.5 , 8.7],[8.5 , 9.7 , 9.9]]
 
 // var colunas = notas[0].length;
@@ -232,8 +237,27 @@
 // soma = 0;
 
 // for(let i=o ; i<colunas ; i++){
-//     soma = soma + notas[1][i];
+//     soma = soma + notas[1][i]; */ <- para saber a média do joão mudamos a linha para 0, ou seja notas[0][i] */
 // }
 
 // var media = soma/colunas;
-// document.write("Mesia da Maria: " + media);
+// document.write("Media da Maria: " + media);
+
+/* Tabuleiro de Xadrez com Matriz */
+
+var tabuleiro = 
+[   ['R','N','B','Q','K','B','N','R']
+    ['P','P','P','P','P','P','P','P']
+    [' ',' ',' ',' ',' ',' ',' ',' ']
+    [' ',' ',' ',' ',' ',' ',' ',' ']
+    [' ',' ',' ',' ',' ',' ',' ',' ']
+    [' ',' ',' ',' ',' ',' ',' ',' ']
+    ['p','p','p','p','p','p','p','p']
+    ['r','n','b','q','k','b','n','r']];
+
+console.log(tabuleiro.join('\n') + '\n\n');
+
+tabuleiro[4][2] = tabuleiro[6][2];
+tabuleiro[6][2] = ' ';
+console.log(tabuleiro.join('\n'));
+
