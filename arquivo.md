@@ -36,37 +36,37 @@ Decremento
 
 ---Operadores de Comparação---
 
-==
+"=="
 Valor igual
 
-=== 
+"==="
 Valor e tipo iguais
 
-!=
+"!="
 Diferente
 
-!==
+"!=="
 Valor e tipo diferentes
 
->
+">"
 Maior que
 
-<
+"<"
 Menor que
 
->=
+">="
 Maior ou igual
 
-<=
+"<="
 Menor ou igual
 
-&& 
+"&&"
 "E" lógico (and)
 
-|| 
+"||"
 "OU" lógico (or)
 
-!
+"!"
 Negação (not)
 
 --Os operadores de comparação, gerealmente, são utilizados 
