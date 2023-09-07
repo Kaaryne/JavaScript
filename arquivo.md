@@ -202,4 +202,22 @@ Reutilização do código através de plugins;
 Utilização de uma vasta quantidade de plugins criados por outros desenvolvedores;
 Trabalha com AJAX e DOM;
 Implementação segura de recursos de CSS1 CSS2 e CSS3.
+
+Sintaxe JavaScript:                                              Sintaxe jQuery:
+document.getElementByTagName(p)                                  $("p")
+document.getElementById("um").setAttribute("class", "cor")       $("#um").atrr("class", "cor")
+
+Acesse: https://jquery.com/
+
+No html: <script type="text/javascript" src="jquey-3.5.1.js"></script>
+
+Utiliza-se a função $() para encontrar um elemento HTML e as funções da biblioteca:
+
+- $('h1')
+
+- $('p')
+
+- $(#coonteudo)
+
+- $('.teste')
                 
