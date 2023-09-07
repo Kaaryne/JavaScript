@@ -203,6 +203,8 @@ Utilização de uma vasta quantidade de plugins criados por outros desenvolvedor
 Trabalha com AJAX e DOM;
 Implementação segura de recursos de CSS1 CSS2 e CSS3.
 
+
+Comparação:
 Sintaxe JavaScript:                                              
 - document.getElementByTagName(p)                                  
 - document.getElementById("um").setAttribute("class", "cor")       
@@ -227,10 +229,12 @@ Utiliza-se a função $() para encontrar um elemento HTML e as funções da bibl
                 
 Função html(): Mostra um conteudo com a formatação da linguagem html.
 
+```java
 $("#btnTeste").click(function(){
 var conteudo = $("#divPrincipal").html();
     $("#divPrincipal").html("<h3>Novo conteudo<h3>")
 });
+```
 
 Função text():
 
