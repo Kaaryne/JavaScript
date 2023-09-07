@@ -217,7 +217,7 @@ Utiliza-se a função $() para encontrar um elemento HTML e as funções da bibl
 
 - $('p')
 
-- $(#coonteudo)
+- $(#conteudo)
 
 - $('.teste')
                 
@@ -235,3 +235,11 @@ var conteudo = $("#divPrincipal").text();
     $("#divPrincipal").text("<h3>Novo conteudo<h3>")
 });
 
+Alguns métodos para efeito:
+
+$(seletor).hide(velocidade,callback);
+$(seletor).show(velocidade,callback);
+$(seletor).toggle(velocidade,callback);
+$(seletor).fadeIn(velocidade,callback);
+$(seletor).fadeOut(velocidade,callback);
+$(seletor).fadeToggle(velocidade,callback);
