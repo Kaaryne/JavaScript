@@ -1,9 +1,9 @@
-<script type="text/javascript" src="jQuery"></script>
-    $(document).ready(function(){
+<!-- <script type="text/javascript" src="jQuery"></script>
+    $(document).ready(function(){ -->
 
         <!-- Código jquery -->
 
-    });
+    <!-- });
 </script>
 
 
@@ -24,4 +24,26 @@
         BLA BLA BLA BLA BLA BLA BLA BLA BLA <br>
     </p>
         <h1>Cronograma</h1>
-</body>
+</body> -->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <script type="text/javascript" src="jQuery"></script>
+        <script type="text/javascript">
+        $(function(){
+
+            $("#btnTeste").click(function(){
+                $("#divPrincipal").append("<h1><3<h1>");
+            });
+
+        })
+        </script>
+    </head>
+    <body>
+        <div id="divPrincipal">
+            <span>Texto</span>
+        </div>
+        <button id="btnTeste">Testar</button>
+    </body>
+</html>
