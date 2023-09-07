@@ -176,7 +176,7 @@ Strings são palavras, frases, textos, etc;
 
 Em Javascript, strings nada mais são do que um vetor de caracteres. 
 
-    Exemplo: var str = "BOM DIA!";
+    Exemplo: > var str = "BOM DIA!";
 
         B O M   D I A !
         |             |
