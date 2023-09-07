@@ -203,9 +203,13 @@ Utilização de uma vasta quantidade de plugins criados por outros desenvolvedor
 Trabalha com AJAX e DOM;
 Implementação segura de recursos de CSS1 CSS2 e CSS3.
 
-Sintaxe JavaScript:                                              Sintaxe jQuery:
-document.getElementByTagName(p)                                  $("p")
-document.getElementById("um").setAttribute("class", "cor")       $("#um").atrr("class", "cor")
+Sintaxe JavaScript:                                              
+document.getElementByTagName(p)                                  
+document.getElementById("um").setAttribute("class", "cor")       
+
+Sintaxe jQuery:
+$("p")
+$("#um").atrr("class", "cor")
 
 Acesse: https://jquery.com/
 
