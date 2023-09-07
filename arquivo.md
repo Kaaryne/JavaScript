@@ -11,25 +11,25 @@ JavaScript é uma linguagem fracamente tipada e dinâmica:
 
 ---Operadores---
 
-+ 
+"+"
 Efetuar uma soma de valores ou concatenação de strings.
 
--
+"-"
 Subtração de valores
 
-*
+"*"
 MUltiplicação de valores
 
-/
+"/"
 Divisão de valores
 
-%
+"%"
 Resto da divisão
 
-++
+"++"
 Incremento (aumenta uma unidade)
 
---
+"--"
 Decremento
 
 ---
