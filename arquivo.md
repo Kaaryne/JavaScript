@@ -141,13 +141,13 @@ Uma matriz (array bidimensional) é um tipo de dado estruturado onde se tem um n
 2  4  6
 1  2  3  -> Matriz 3x3 que contém números inteiros.
 
-var matint = [[3,6,9,],[2,4,6],[1,2,3]]
+`var matint = [[3,6,9,],[2,4,6],[1,2,3]]
             
 matint[0][0] <-  3  6  9
                  2  4  6 -> matint[1][2]
                  1  2  3
                     |
-                matint[2][1]
+                matint[2][1]`
 
 ---
 
