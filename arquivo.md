@@ -229,7 +229,7 @@ Utiliza-se a função $() para encontrar um elemento HTML e as funções da bibl
                 
 Função html(): Mostra um conteudo com a formatação da linguagem html.
 
-```java
+```javascript
 $("#btnTeste").click(function(){
 var conteudo = $("#divPrincipal").html();
     $("#divPrincipal").html("<h3>Novo conteudo<h3>")
@@ -238,10 +238,12 @@ var conteudo = $("#divPrincipal").html();
 
 Função text():
 
+```javascript
 $("#btnTeste").click(function(){
 var conteudo = $("#divPrincipal").text();
     $("#divPrincipal").text("<h3>Novo conteudo<h3>")
 });
+```
 
 Alguns métodos para efeito:
 
