@@ -204,12 +204,12 @@ Trabalha com AJAX e DOM;
 Implementação segura de recursos de CSS1 CSS2 e CSS3.
 
 Sintaxe JavaScript:                                              
-document.getElementByTagName(p)                                  
-document.getElementById("um").setAttribute("class", "cor")       
+- document.getElementByTagName(p)                                  
+- document.getElementById("um").setAttribute("class", "cor")       
 
 Sintaxe jQuery:
-$("p")
-$("#um").atrr("class", "cor")
+- $("p")
+- $("#um").atrr("class", "cor")
 
 Acesse: https://jquery.com/
 
