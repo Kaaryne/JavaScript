@@ -221,3 +221,17 @@ Utiliza-se a função $() para encontrar um elemento HTML e as funções da bibl
 
 - $('.teste')
                 
+Função html(): Mostra um conteudo com a formatação da linguagem html.
+
+$("#btnTeste").click(function(){
+var conteudo = $("#divPrincipal").html();
+    $("#divPrincipal").html("<h3>Novo conteudo<h3>")
+});
+
+Função text():
+
+$("#btnTeste").click(function(){
+var conteudo = $("#divPrincipal").text();
+    $("#divPrincipal").text("<h3>Novo conteudo<h3>")
+});
+
