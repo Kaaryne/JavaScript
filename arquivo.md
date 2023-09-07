@@ -247,7 +247,7 @@ var conteudo = $("#divPrincipal").text();
 
 Alguns métodos para efeito:
 
-$(seletor).hide(velocidade,callback);
+> $(seletor).hide(velocidade,callback);
 $(seletor).show(velocidade,callback);
 $(seletor).toggle(velocidade,callback);
 $(seletor).fadeIn(velocidade,callback);
