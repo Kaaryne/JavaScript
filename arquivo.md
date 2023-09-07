@@ -236,7 +236,7 @@ var conteudo = $("#divPrincipal").html();
 });
 ```
 
-Função text():
+Função text(): Mostra exatamente como foi escrita.
 
 ```javascript
 $("#btnTeste").click(function(){
